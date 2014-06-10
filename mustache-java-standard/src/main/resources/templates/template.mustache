@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>{{itemID}}</title>
+</head>
+<body>
+  <h1>{{itemID}}</h1>
+  
+  {{!---- Nested value ----}}
+  <p>{{itemDetails.nestedAttributeL1_1}}</p>
+  <p>{{itemDetails.nestedAttributeL1_4}}</p>
+  
+  {{!---- nested data ----}}
+  <p>{{itemDetails.nestedAttributeL1_2.nestedAttributeL2}}</p>
+  
+  {{!---- Loop JSON array ----}}
+  {{#itemDetails.nestedAttributeL1_3}}
+	Array: {{text}}, {{num}}, {{boolean}}
+  {{/itemDetails.nestedAttributeL1_3}}
+  
+  {{!---- Include partial template ----}}
+  {{> partial}}
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+    "itemID": "someID",
+    "itemDetails": {
+    	"nestedAttributeL1_1":"some value",
+        "nestedAttributeL1_2": {
+            "nestedAttributeL2": "This is a nested value"
+        },
+        "nestedAttributeL1_3": [
+            {
+                "text": "Text1",
+                "num": 1,
+                "boolean": true
+            },
+            {
+                "text": "Text2",
+                "num": 2,
+                "boolean": true
+            },
+            {
+                "text": "Text3",
+                "num": 3,
+                "boolean": true
+            }
+        ],
+        "nestedAttributeL1_4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a metus id metus consectetur tincidunt vel in justo. Etiam interdum molestie nibh, sit amet consectetur eros..."
+    }
+}
